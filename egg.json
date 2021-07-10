@@ -1,0 +1,14 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.6/src/schema.json",
+  "name": "utilitypes",
+  "entry": "mod.ts",
+  "description": "A collection of utility types for TypeScript",
+  "homepage": "https://github.com/TomokiMiyauci/utilitypes#readme",
+  "version": "0.0.0",
+  "files": ["README.md", "LICENSE", "*.ts"],
+  "ignore": [".git"],
+  "checkFormat": false,
+  "checkTests": false,
+  "checkInstallation": false,
+  "check": true
+}
