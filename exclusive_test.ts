@@ -8,6 +8,8 @@ assertEqualR<{}, Exclusive<{}, {}>>();
 assertEqualR<{}, Exclusive<{}, {}>>();
 assertEqualR<{}, Exclusive<{ a: string }, {}>>();
 assertEqualR<{}, Exclusive<{}, { a: string }>>();
+assertEqualR<{ a: [] }, Exclusive<{ a: [] }, { a: [] }>>();
+assertEqualR<{ a: [] } | { a: string }, Exclusive<{ a: [] }, { a: string }>>();
 assertEqualR<{ a: string }, Exclusive<{ a: string }, { a: string }>>();
 assertEqualR<
   { a: string } | { a: number },
@@ -35,6 +37,14 @@ assertEqualR<
 assertEqualR<
   { a: number } | { a: number; b: undefined } | { a: string; b: number },
   Exclusive<{ a: string; b: number }, { a: number }>
+>();
+assertEqualR<
+  { a: { b: string } } | { a: number },
+  Exclusive<{ a: { b: string } }, { a: number }>
+>();
+assertEqualR<
+  { a: { b: string } } | { a: { b: number } },
+  Exclusive<{ a: { b: string } }, { a: { b: number } }>
 >();
 
 assertEqual<Exclusive<{}, {}>>({});
