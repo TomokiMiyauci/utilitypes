@@ -31,6 +31,14 @@ A collection of utility types for TypeScript
 
 Collection of utility types for TypeScript.
 
+:construction: This is WIP.
+
+You can try `beta` version.
+
+```bash
+yarn add -D utilitypes@beta
+```
+
 ## :handshake: Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check
