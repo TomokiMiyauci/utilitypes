@@ -1,3 +1,8 @@
+# [v1.0.0-beta.3](https://github.com/TomokiMiyauci/utilitypes/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2021-07-14)
+
+## ✨ New Features
+- [`db36d28`](https://github.com/TomokiMiyauci/utilitypes/commit/db36d28)   Add Weaken types for Object literal types
+
 # [v1.0.0-beta.2](https://github.com/TomokiMiyauci/utilitypes/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2021-07-12)
 
 ## ✨ New Features
