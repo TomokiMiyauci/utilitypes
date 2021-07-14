@@ -13,3 +13,12 @@ assertEqualR<
   { readonly "": any; 0: any },
   Weaken<{ readonly "": string; 0: 1 }, "" | 0>
 >();
+assertEqualR<
+  { readonly "": any; 0: number },
+  Weaken<Test, "">
+>();
+
+interface Test {
+  "": string;
+  0: number;
+}

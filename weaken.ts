@@ -1,8 +1,8 @@
 // Copyright 2021-present the utilitypes authors. All rights reserved. MIT license.
 
 /**
- * Returns the specified property of an object literal as `any`.
- * @typeParam T - Any object literal
+ * Returns the specified property of an types as `any`.
+ * @typeParam T - Any types
  * @typeParam U - Property keys of `T`
  * @returns Set property of `U` to `any` from `T`
  *
@@ -12,7 +12,7 @@
  * // { 0: any, a: any, b: string }
  * ```
  */
-type Weaken<T extends Record<PropertyKey, unknown>, U extends keyof T> = {
+type Weaken<T, U extends keyof T> = {
   // deno-lint-ignore no-explicit-any
   [k in keyof T]: k extends U ? any : T[k];
 };
