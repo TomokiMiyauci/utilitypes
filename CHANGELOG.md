@@ -1,3 +1,8 @@
+# [v1.0.0-beta.4](https://github.com/TomokiMiyauci/utilitypes/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2021-07-14)
+
+## 🐛 Bug Fixes
+- [`a9e8132`](https://github.com/TomokiMiyauci/utilitypes/commit/a9e8132)   Expand Weaken types target types to all
+
 # [v1.0.0-beta.3](https://github.com/TomokiMiyauci/utilitypes/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2021-07-14)
 
 ## ✨ New Features
