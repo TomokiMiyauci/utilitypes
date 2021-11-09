@@ -13,9 +13,6 @@
     "allowJs": false,
     "skipLibCheck": true,
 
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
     "outDir": "dist",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
@@ -23,7 +20,10 @@
     "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["lib/*"],
+      "@test/*": ["tests/*"]
     }
-  }
+  },
+  "include": ["lib/**/*.ts", "tests"],
+  "exclude": ["lib/**/*_test.ts"]
 }

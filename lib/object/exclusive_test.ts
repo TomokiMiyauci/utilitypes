@@ -1,8 +1,7 @@
 // Copyright 2021-present the utilitypes authors. All rights reserved. MIT license.
 
-// deno-lint-ignore-file ban-types
-import { Exclusive } from "./exclusive.ts";
-import { assertEqual, assertEqualR, defineAssert } from "./dev_deps.ts";
+import { Exclusive } from "@/object/exclusive";
+import { assertEqual, assertEqualR, defineAssert } from "@test/assert";
 
 assertEqualR<{}, Exclusive<{}, {}>>();
 assertEqualR<{}, Exclusive<{}, {}>>();

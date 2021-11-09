@@ -1,10 +1,8 @@
 // Copyright 2021-present the utilitypes authors. All rights reserved. MIT license.
 
-// deno-lint-ignore-file no-explicit-any
-import { Weaken } from "./weaken.ts";
-import { assertEqualR } from "./dev_deps.ts";
+import { Weaken } from "@/object/weaken";
+import { assertEqualR } from "@test/assert";
 
-// deno-lint-ignore ban-types
 assertEqualR<{}, Weaken<{}, never>>();
 assertEqualR<{ "": any }, Weaken<{ "": string }, "">>();
 assertEqualR<{ "": any; 0: 1 }, Weaken<{ "": string; 0: 1 }, "">>();

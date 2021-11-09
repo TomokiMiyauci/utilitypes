@@ -1,16 +1,6 @@
 // Copyright 2021-present the utilitypes authors. All rights reserved. MIT license.
+import { Primitive } from "@/primitive";
 
-/**
- * Alias for Primitive values types.
- *
- * @beta
- */
-type Primitive = string | number | bigint | undefined | null | symbol | boolean;
-
-// case1 { a: string }, { a: number }
-// case2 { a: string }, { a: { b: string }}
-// case3 { a: string }, { b: string }
-// case4 {}, {}
 /**
  * Returns a record type with exclusive properties.
  * @typeParam T - Any Record types
@@ -53,4 +43,4 @@ type Exclusive<
     }
   );
 
-export type { Exclusive, Primitive };
+export type { Exclusive };
