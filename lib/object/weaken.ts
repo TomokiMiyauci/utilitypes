@@ -17,4 +17,4 @@ type Weaken<T, U extends keyof T> = {
   [k in keyof T]: k extends U ? any : T[k];
 };
 
-export type { Weaken };
+export type { Weaken }

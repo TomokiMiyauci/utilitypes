@@ -1,2 +1,2 @@
-export * from "@/object";
-export type { Primitive } from "@/primitive";
+export * from '@/object'
+export type { Primitive } from '@/primitive'

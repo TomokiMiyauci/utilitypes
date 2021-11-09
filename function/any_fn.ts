@@ -9,4 +9,4 @@
  */
 type AnyFn<T = any, U = unknown> = (...args: T[]) => U;
 
-export type { AnyFn };
+export type { AnyFn }

@@ -1,5 +1,5 @@
 // Copyright 2021-present the utilitypes authors. All rights reserved. MIT license.
-import { Primitive } from "@/primitive";
+import { Primitive } from '@/primitive'
 
 /**
  * Returns a record type with exclusive properties.
@@ -43,4 +43,4 @@ type Exclusive<
     }
   );
 
-export type { Exclusive };
+export type { Exclusive }

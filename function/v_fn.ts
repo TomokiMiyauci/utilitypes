@@ -1,3 +1,3 @@
 type VFn = () => void;
 
-export type { VFn };
+export type { VFn }

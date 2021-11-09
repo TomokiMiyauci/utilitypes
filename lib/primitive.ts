@@ -3,6 +3,6 @@
  *
  * @beta
  */
-type Primitive = string | number | bigint | undefined | null | symbol | boolean;
+type Primitive = string | number | bigint | undefined | null | symbol | boolean
 
-export type { Primitive };
+export type { Primitive }
